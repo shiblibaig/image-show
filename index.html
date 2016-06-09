@@ -3,8 +3,13 @@
 
 <body>
 
+<button onClick ="change1()">Type I</button>
+<button onClick ="change2()">Type II</button>
+
 <p>Image to use:</p>
 <img id="white" src="sample cat.jpg" alt="White">
+<!-- <img id="blue" src="sample cat.jpg" alt="White">
+<img id="red" src="sample bird.jpg" alt="White"> -->
 
 <p>Canvas:</p>
 <div id="mainDiv">
@@ -40,8 +45,8 @@
 
 <h1>Useless Text!!!</h1>
 
-<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-<script type="text/javascript" src= "https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
+<script type="text/javascript" src= "../jquery.js"></script>
+<script type="text/javascript" src= "../velocity.js"></script>
 <script type="text/javascript" src = "Suave-v3.js"></script>
 <script>
 
@@ -55,7 +60,12 @@
 		padding-bottom: 40px;
 		background-color: beige;
 	}
-	
+	#div1,#div2,#div3,#div4,#div5,#div6,#div7{
+		position: relative;
+		transform-origin: 10% 50%;
+	}
+
+
 </style>
 
 </body>
